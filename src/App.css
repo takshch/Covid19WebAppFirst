@@ -1,0 +1,87 @@
+body {
+  background-color: #3f7cac;
+}
+.wrapper {
+  background-color: #4e4187;
+  min-height: 300px;
+  max-width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+  position: relative;
+}
+.form > form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form > form input {
+  background-color: #e43f6f;
+  color: #fff;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: auto 10px;
+  outline: none;
+  font-size: 17px;
+}
+
+.form > form input::placeholder {
+  color: #fff;
+}
+
+.form > form button {
+  min-width: 100px;
+  margin: 0px 10px;
+  background: #c52233;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 18px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  outline: none;
+}
+.form > form button:active {
+  transform: scale(1.1);
+}
+.todolist {
+  margin: 10px 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+.todolist ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.todolist ul li {
+  list-style: none;
+  font-size: 20px;
+  background-color: #3abeff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px 0;
+  position: relative;
+}
+
+.todolist ul li > button {
+  position: absolute;
+  right: 10px;
+  top: auto;
+  bottom: 5px;
+  width: 80px;
+  height: 80%;
+  background: #820933;
+  color: #fff;
+  border: none;
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+}
